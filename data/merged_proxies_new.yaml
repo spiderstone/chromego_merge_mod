@@ -25,19 +25,20 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: Unknown_tuic_01
+- name: Unknown_anytls_01
+  type: anytls
   server: 62.210.10.140
-  port: 23556
-  type: tuic
-  uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
+  port: 8443
   password: dongtaiwang.com
+  client-fingerprint: chrome
+  udp: true
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  min-idle-session: 0
   alpn:
-  - h3
-  sni: bing.com
+  - h2
+  - http/1.1
   skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
 - name: Unknown_vless_11
   type: vless
   server: 2001:bc8:32d7:158::5
@@ -474,7 +475,7 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - Unknown_tuic_01
+  - Unknown_anytls_01
   - Unknown_vless_11
   - Unknown_hysteria_21
   - Unknown_hysteria_22
@@ -516,7 +517,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Unknown_tuic_01
+  - Unknown_anytls_01
   - Unknown_vless_11
   - Unknown_hysteria_21
   - Unknown_hysteria_22
