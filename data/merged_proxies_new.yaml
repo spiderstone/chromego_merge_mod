@@ -117,7 +117,7 @@ proxies:
   down: 55 Mbps
 - name: Unknown_tuic_31
   server: 51.159.107.20
-  port: 10088
+  port: 55255
   type: tuic
   uuid: 79529c4a-4028-4701-a6d6-4e94b78b50fd
   password: dongtaiwang.com
@@ -144,7 +144,7 @@ proxies:
   skip-cert-verify: true
 - name: Unknown_hysteria_33
   type: hysteria
-  server: 2001:bc8:1203:25::2
+  server: 51.159.107.20
   port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
