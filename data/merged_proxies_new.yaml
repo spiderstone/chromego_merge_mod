@@ -116,7 +116,7 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - name: Unknown_tuic_31
-  server: 62.210.99.62
+  server: ipv4.758733.xyz
   port: 50088
   type: tuic
   uuid: 93959440-4f83-4352-b939-906b1fd3fa59
@@ -144,7 +144,7 @@ proxies:
   skip-cert-verify: true
 - name: Unknown_hysteria_33
   type: hysteria
-  server: 62.210.99.62
+  server: ipv4.758733.xyz
   port: 20001
   auth-str: dongtaiwang.com
   sni: apple.com
