@@ -439,7 +439,7 @@ proxies:
   skip-cert-verify: true
 - name: Unknown_hy2_1
   type: hysteria2
-  server: 51.158.218.2
+  server: 51.158.205.126
   port: 50066
   password: dongtaiwang.com
   fast-open: true
