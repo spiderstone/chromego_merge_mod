@@ -516,10 +516,10 @@ proxies:
 - name: Unknown_hy2_1
   type: hysteria2
   server: 51.158.194.63
-  port: 50066
+  port: 32952
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: www.microsoft.com
   skip-cert-verify: true
 - name: Unknown_hy2_2
   type: hysteria2
