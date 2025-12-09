@@ -451,9 +451,9 @@ proxies:
   - h3
 - name: Unknown_hy_2
   type: hysteria
-  server: 195.154.200.40
-  port: 15010
-  ports: 15010
+  server: 62.210.10.186
+  port: 40099
+  ports: 40099
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
@@ -521,6 +521,14 @@ proxies:
   fast-open: true
   sni: www.microsoft.com
   skip-cert-verify: true
+- name: Unknown_hy2_2
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
+  fast-open: true
+  sni: www.microsoft.com
+  skip-cert-verify: true
 - name: Unknown_hy2_3
   type: hysteria2
   server: '[2604'
@@ -578,6 +586,7 @@ proxy-groups:
   - Unknown_hy_5
   - Unknown_hy2_0
   - Unknown_hy2_1
+  - Unknown_hy2_2
   - Unknown_hy2_3
   - Unknown_hy2_5
 - name: 自动选择
@@ -621,6 +630,7 @@ proxy-groups:
   - Unknown_hy_5
   - Unknown_hy2_0
   - Unknown_hy2_1
+  - Unknown_hy2_2
   - Unknown_hy2_3
   - Unknown_hy2_5
 rules:
