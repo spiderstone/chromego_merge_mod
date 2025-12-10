@@ -310,53 +310,14 @@ proxies:
   udp-relay-mode: native
   congestion-controller: bbr
 - name: Unknown_tuic_72
-  server: 2001:bc8:1203:106::101
-  port: 55111
+  server: 2a14:7583:2963::6e
+  port: 18899
   type: tuic
-  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
+  uuid: 186a249b-5bc1-48b0-b922-534d5639ccf7
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: Unknown_tuic_73
-  server: 2001:bc8:1203:106::102
-  port: 55111
-  type: tuic
-  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: Unknown_tuic_74
-  server: 2001:bc8:1203:106::103
-  port: 55111
-  type: tuic
-  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
-  skip-cert-verify: true
-  reduce-rtt: true
-  udp-relay-mode: native
-  congestion-controller: bbr
-- name: Unknown_tuic_75
-  server: 2001:bc8:1203:106::104
-  port: 55111
-  type: tuic
-  uuid: 5ae31731-78ac-483a-b524-011d05072ef5
-  password: dongtaiwang.com
-  alpn:
-  - h3
-  sni: bing.com
+  sni: apple.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
@@ -570,9 +531,6 @@ proxy-groups:
   - Unknown_vless_61
   - Unknown_tuic_71
   - Unknown_tuic_72
-  - Unknown_tuic_73
-  - Unknown_tuic_74
-  - Unknown_tuic_75
   - Unknown_hysteria_81
   - Unknown_hysteria_82
   - Unknown_hysteria_83
@@ -614,9 +572,6 @@ proxy-groups:
   - Unknown_vless_61
   - Unknown_tuic_71
   - Unknown_tuic_72
-  - Unknown_tuic_73
-  - Unknown_tuic_74
-  - Unknown_tuic_75
   - Unknown_hysteria_81
   - Unknown_hysteria_82
   - Unknown_hysteria_83
