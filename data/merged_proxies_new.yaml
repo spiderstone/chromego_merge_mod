@@ -324,58 +324,10 @@ proxies:
   congestion-controller: bbr
 - name: Unknown_hysteria_81
   type: hysteria
-  server: 2001:bc8:1203:106::200
-  port: 47821
+  server: 2001:bc8:32d7:14f::4
+  port: 23880
   auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_82
-  type: hysteria
-  server: 2001:bc8:1203:106::201
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_83
-  type: hysteria
-  server: 2001:bc8:1203:106::202
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_84
-  type: hysteria
-  server: 2001:bc8:1203:106::203
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  protocol: udp
-  up: 11 Mbps
-  down: 55 Mbps
-- name: Unknown_hysteria_85
-  type: hysteria
-  server: 2001:bc8:1203:106::204
-  port: 47821
-  auth-str: dongtaiwang.com
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -440,15 +392,15 @@ proxies:
   - h3
 - name: Unknown_hy_4
   type: hysteria
-  server: 51.159.226.1
-  port: 49003
-  ports: 49003
+  server: 62.210.127.177
+  port: 23880
+  ports: 23880
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
   fast-open: true
   protocol: udp
-  sni: apple.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -532,10 +484,6 @@ proxy-groups:
   - Unknown_tuic_71
   - Unknown_tuic_72
   - Unknown_hysteria_81
-  - Unknown_hysteria_82
-  - Unknown_hysteria_83
-  - Unknown_hysteria_84
-  - Unknown_hysteria_85
   - Unknown_hy_0
   - Unknown_hy_1
   - Unknown_hy_2
@@ -573,10 +521,6 @@ proxy-groups:
   - Unknown_tuic_71
   - Unknown_tuic_72
   - Unknown_hysteria_81
-  - Unknown_hysteria_82
-  - Unknown_hysteria_83
-  - Unknown_hysteria_84
-  - Unknown_hysteria_85
   - Unknown_hy_0
   - Unknown_hy_1
   - Unknown_hy_2
