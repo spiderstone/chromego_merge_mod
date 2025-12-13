@@ -297,9 +297,9 @@ proxies:
   down: 55 Mbps
 - name: Unknown_hy_0
   type: hysteria
-  server: 5.83.129.248
-  port: 56701
-  ports: 56701
+  server: 51.159.107.20
+  port: 40121
+  ports: 40121
   auth_str: dongtaiwang.com
   up: 1000
   down: 1000
