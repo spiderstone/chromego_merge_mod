@@ -235,9 +235,9 @@ proxies:
       down: 100
 - name: Unknown_vless_61
   type: vless
-  server: 2a14:7583:2977::a
-  port: 10494
-  uuid: 9328c397-1485-4bd0-a214-cae442ae828c
+  server: 2001:bc8:32d7:1cb::10
+  port: 12618
+  uuid: 582d6615-b8a3-4674-96c1-5b087563b091
   network: tcp
   udp: true
   tls: true
@@ -245,8 +245,8 @@ proxies:
   servername: itunes.apple.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: LdkOYdsF39LEUZ9pQgQX1ql_UjMjmn308EMs-n27cEQ
-    short-id: 7e5f09e994395f10
+    public-key: Y3mEtIPC1rjwUrwJ4UsqX6QeZnJUoBN6hG2rRSQx4Rw
+    short-id: 8c4e4d7198e3631c
   smux:
     enabled: true
     protocol: h2mux
@@ -258,23 +258,23 @@ proxies:
       up: 50
       down: 100
 - name: Unknown_tuic_71
-  server: 51.158.194.63
-  port: 29522
+  server: 89.144.35.231
+  port: 33457
   type: tuic
-  uuid: b7dd1167-c5d9-45b9-ab75-83cd9e635537
+  uuid: 66d37a65-7f6f-4e7c-a0f6-163bd917756a
   password: dongtaiwang.com
   alpn:
   - h3
-  sni: www.microsoft.com
+  sni: apple.com
   skip-cert-verify: true
   reduce-rtt: true
   udp-relay-mode: native
   congestion-controller: bbr
 - name: Unknown_tuic_72
-  server: 2a14:7583:2963::6e
-  port: 18899
+  server: 2a14:7583:299d::a
+  port: 33457
   type: tuic
-  uuid: 186a249b-5bc1-48b0-b922-534d5639ccf7
+  uuid: 66d37a65-7f6f-4e7c-a0f6-163bd917756a
   password: dongtaiwang.com
   alpn:
   - h3
