@@ -75,16 +75,15 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Unknown_hysteria_31
-  type: hysteria
-  server: ipv4-2.758733.xyz
-  port: 30077
-  auth-str: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
+- name: Unknown_hysteria2_31
+  type: hysteria2
+  server: 51.158.194.63
+  port: 32952
+  password: dongtaiwang.com
   alpn:
   - h3
-  protocol: udp
+  sni: www.microsoft.com
+  skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
 - name: Unknown_vless_32
@@ -428,7 +427,7 @@ proxy-groups:
   - Unknown_anytls_01
   - Unknown_vless_11
   - Unknown_hysteria_21
-  - Unknown_hysteria_31
+  - Unknown_hysteria2_31
   - Unknown_vless_32
   - Unknown_hysteria_33
   - Unknown_hysteria_34
@@ -461,7 +460,7 @@ proxy-groups:
   - Unknown_anytls_01
   - Unknown_vless_11
   - Unknown_hysteria_21
-  - Unknown_hysteria_31
+  - Unknown_hysteria2_31
   - Unknown_vless_32
   - Unknown_hysteria_33
   - Unknown_hysteria_34
