@@ -397,11 +397,11 @@ proxies:
   skip-cert-verify: true
 - name: Unknown_hy2_2
   type: hysteria2
-  server: 51.158.194.63
-  port: 32952
+  server: 5.178.101.106
+  port: 11000
   password: dongtaiwang.com
   fast-open: true
-  sni: www.microsoft.com
+  sni: apple.com
   skip-cert-verify: true
 - name: Unknown_hy2_3
   type: hysteria2
