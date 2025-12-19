@@ -25,20 +25,6 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: Unknown_anytls_01
-  type: anytls
-  server: 45.221.98.14
-  port: 59901
-  password: dongtaiwang.com
-  client-fingerprint: chrome
-  udp: true
-  idle-session-check-interval: 30
-  idle-session-timeout: 30
-  min-idle-session: 0
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
 - name: Unknown_vless_11
   type: vless
   server: 2001:bc8:32d7:1cb::10
@@ -99,7 +85,6 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - Unknown_anytls_01
   - Unknown_vless_11
   - Unknown_hy_1
   - Unknown_hy2_0
@@ -110,7 +95,6 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Unknown_anytls_01
   - Unknown_vless_11
   - Unknown_hy_1
   - Unknown_hy2_0
